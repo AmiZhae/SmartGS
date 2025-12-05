@@ -18,7 +18,9 @@ SmartGS_client/ios/Flutter/.last_build_id
 
 # === FastAPI Server ===
 SmartGS_server/venv/
-SmartGS_server/__pycache__/
+SmartGS_server/models/__pycache__/
+SmartGS_server/routers/__pycache__/
+SmartGS_server/utils/__pycache__/
 SmartGS_server/*.pyc
 
 # === Secrets ===
