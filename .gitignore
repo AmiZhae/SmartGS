@@ -1,0 +1,31 @@
+# === Global ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === Flutter Client ===
+SmartGS_client/build/
+SmartGS_client/.dart_tool/
+SmartGS_client/.packages
+SmartGS_client/pubspec.lock
+
+# Android build output
+SmartGS_client/android/app/debug
+SmartGS_client/android/app/release
+
+# iOS build artifacts
+SmartGS_client/ios/Flutter/.last_build_id
+
+# === FastAPI Server ===
+SmartGS_server/venv/
+SmartGS_server/__pycache__/
+SmartGS_server/*.pyc
+
+# === Secrets ===
+.env
+SmartGS_server/.env
+SmartGS_client/lib/env.dart
+
+# === IDE files ===
+.vscode/
+.idea/
