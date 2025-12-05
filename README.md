@@ -1,7 +1,5 @@
-================================================================================
 SMART GROCERY
 Full-Stack E-Commerce Mobile Application
-================================================================================
 
 # PROJECT OVERVIEW
 
@@ -20,9 +18,7 @@ Key Features:
 - Order history tracking
 - User profile management
 
-================================================================================
 TECHNOLOGY STACK
-================================================================================
 
 Frontend:
 
@@ -45,9 +41,7 @@ External Services:
 - Stripe Payment Gateway
 - MongoDB Database
 
-================================================================================
 INSTALLATION & SETUP
-================================================================================
 
 1. BACKEND SETUP
 
@@ -96,9 +90,7 @@ flutter run
 
 Or select your device/emulator in your IDE and run.
 
-================================================================================
 DATABASE SCHEMA
-================================================================================
 
 MongoDB Collections:
 
@@ -148,9 +140,7 @@ MongoDB Collections:
    "timestamp": DateTime
    }
 
-================================================================================
 API ENDPOINTS
-================================================================================
 
 Base URL: http://localhost:8000
 
@@ -186,9 +176,7 @@ Orders:
 - POST /order/checkout Create order after payment (requires auth)
 - GET /order/history Get user order history (requires auth)
 
-================================================================================
 AUTHENTICATION
-================================================================================
 
 The application uses JWT (JSON Web Tokens) for authentication.
 
@@ -206,9 +194,7 @@ Token Details:
 - Expiration: 5 hours
 - Payload: username, expiration time
 
-================================================================================
 PAYMENT INTEGRATION
-================================================================================
 
 The application integrates with Stripe for secure payment processing.
 
@@ -231,9 +217,7 @@ Test Card Details:
 - CVC: Any 3 digits (e.g., 123)
 - ZIP: Any 5 digits (e.g., 12345)
 
-================================================================================
 RUNNING THE APPLICATION
-================================================================================
 
 Development Mode:
 
