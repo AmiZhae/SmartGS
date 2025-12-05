@@ -24,7 +24,6 @@ SmartGS_server/*.pyc
 # === Secrets ===
 .env
 SmartGS_server/.env
-SmartGS_client/lib/env.dart
 
 # === IDE files ===
 .vscode/
